@@ -66,7 +66,7 @@ export class Quiz {
         }
     }
 
-    async getLearningObjectives(question, options, correctIndex) {
+    async getLearningObjectives(question, answer, correctIndex, explanation,) {
         const prompt = `
         For this ${this.difficulty.toLowerCase()} level medical question:
         Question: "${question}"
