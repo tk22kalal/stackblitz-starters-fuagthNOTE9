@@ -70,20 +70,20 @@ export class Quiz {
         const prompt = `
         For this ${this.difficulty.toLowerCase()} level medical question:
         Question: "${question}"
-        Correct Answer: ${options[correctIndex]}
+        Correct Answer: ${answer}
         Explanation: "${explanation}"
-    
+
         Based on the question, correct answer and explanation, determine the most suitable learning objective from the following:
         1. Key points to remember (2-3 bullet points) or
         2. A relevant formula or equation or
         3. A small table (if applicable) or
         4. A brief flowchart or mind map description or
         5. One flashcard-style quick fact
-    
+
         Select only one of the above that is most appropriate for this question and present it fully formatted in HTML with the appropriate tags (<ul>, <table>, etc.).
         Ensure the structure is well-formed and useful for learning.
         `;
-    
+
         try {
             const response = await fetchFromAPI(prompt);
             return {
@@ -95,18 +95,17 @@ export class Quiz {
             };
         }
     }
-    
 
     async askDoubt(doubt, question) {
         const prompt = `
         Regarding this ${this.difficulty.toLowerCase()} level medical question:
         "${question}"
-        
+
         User's doubt: "${doubt}"
-        
+
         Please provide a clear, detailed explanation addressing this specific doubt in the context of the question.
         Focus on medical accuracy and explain in a way that's helpful for medical students.
-        
+
         Also suggest if a medical diagram or image would be helpful, and if so, describe what it should show.
         IMAGE DESCRIPTION:
         `;
