@@ -71,6 +71,7 @@ export class Quiz {
         For this ${this.difficulty.toLowerCase()} level medical question:
         Question: "${question}"
         Correct Answer: ${options[correctIndex]}
+        Explanation: "${explanation}"
     
         Based on the question, correct answer and explanation, determine the most suitable learning objective from the following:
         1. Key points to remember (2-3 bullet points) or
