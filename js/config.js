@@ -25,15 +25,15 @@ export const SUBJECTS = {
         'Radiology'
     ],
     'Biochemistry': [
-        'Complete Biochemistry'
+        'Biochemistry'
     ],
     'Pathology': [
-        'Complete Pathology'
+        'Pathology'
     ],
     'Pharmacology': [
-        'Complete Pharmacology'
+        'Pharmacology'
     ],
     'Microbiology': [
-        'Complete Microbiology'
+        'Microbiology'
     ]
 };
