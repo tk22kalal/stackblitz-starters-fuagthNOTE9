@@ -33,7 +33,8 @@ export const SUBJECTS = {
     'Pharmacology': [
         'Pharmacology'
     ],
-    'Microbiology': [
-        'Microbiology'
+    'Ophthalmology': [
+        'Ophthalmology',
+        'RETINA: ANATOMY AND INVESTIGATIONS'
     ]
 };
