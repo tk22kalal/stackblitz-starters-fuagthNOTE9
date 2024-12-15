@@ -27,8 +27,9 @@ export const SUBJECTS = {
   'Biochemistry': [
     'Biochemistry'
   ],
-  'Pathology': [
-    'Pathology'
+  'FMT': [
+    'FMT',
+    'General Toxicology'
   ],
   'Pharmacology': [
     'Pharmacology'
