@@ -1,4 +1,4 @@
-export const API_KEY = "AIzaSyDtN9czLTfmVm3FvC-MzL3fdbqIiHMGRxo";
+export const API_KEY = "AIzaSyDukzMxHWK6q_KvTlE3T8ZdV1SVOg-CkRg";
 export const GOOGLE_API_KEY = "AIzaSyBZTtYR91YdEf49esNSSdMx2ZxtIb2EI0I";
 export const GOOGLE_SEARCH_ENGINE_ID = "07bfb530915b74d08";
 
